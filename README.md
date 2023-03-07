@@ -86,7 +86,10 @@ Libs:
 
 ## Configuring your environment
 
-
+Now, let's configure the ANDROID_SDK_ROOT path, for that: <br /><br />
+```nano ~/.profile```. <br /><br />
+At the bottom of the file, insert ```export ANDROID_SDK_ROOT=/usr/lib/android-sdk```. <br /><br />
+Save it and exit.
 
 ## Cloning your project
 
