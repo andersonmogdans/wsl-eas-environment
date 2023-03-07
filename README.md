@@ -80,6 +80,6 @@ Libs:
 ```npm install --global yarn``` install <br /><br />
 ```yarn --version``` verify its version
 
+<br /><br />
+
 # Third step: finish configuring your environment and download your project.
-
-
