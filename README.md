@@ -20,7 +20,7 @@ Libs:
 
 ## Curl
 
-```sudo apt install curl``` to install it, and you good to go.
+```sudo apt install curl``` install it, and you good to go.
 
 <br /><br />
   
@@ -32,21 +32,54 @@ Libs:
 
 ## Node
 
-Run ```curl -s https://deb.nodesource.com/setup_16.x | sudo bash``` to add NodeSource PPA <br /><br />
-Then ```sudo apt install nodejs -y``` to install it <br /><br />
-Finally ```node -v``` to verify its version, it should be v16
+```curl -s https://deb.nodesource.com/setup_16.x | sudo bash``` add NodeSource PPA <br /><br />
+```sudo apt install nodejs -y``` install it <br /><br />
+```node -v``` verify its version, it should be v16
 
 <br />
 
 ## NVM 
 
-```curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``` to download it <br /><br />
-```source ~/.bashrc``` to complete your install
+```curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``` download it <br /><br />
+```source ~/.bashrc``` complete your install
 
 <br />
 
-##Java 
+## Java 
 
-```
+```apt-get update``` <br /><br />
+```apt-get upgrade``` <br /><br />
+```apt install openjdk-17-jdk openjdk-17-jre``` install
 
-  
+<br />
+
+## Git
+
+```sudo apt update``` update the system package <br /><br />
+```sudo apt install git```  install <br /><br />
+```git --version``` verify its version
+
+<br />
+
+## Android-SDK
+
+```sudo apt update``` <br /><br />
+```sudo apt install android-sdk``` install
+
+<br />
+
+## Android-SDK-build-tools
+
+```sudo apt-get update``` <br /><br />
+```sudo apt-get -y install android-sdk-build-tools``` install
+
+<br />
+
+## Yarn
+
+```npm install --global yarn``` install <br /><br />
+```yarn --version``` verify its version
+
+# Third step: finish configuring your environment and download your project.
+
+
