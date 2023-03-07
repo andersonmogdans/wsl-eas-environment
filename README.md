@@ -47,9 +47,9 @@ Libs:
 
 ## Java 
 
-```apt-get update``` <br /><br />
-```apt-get upgrade``` <br /><br />
-```apt install openjdk-17-jdk openjdk-17-jre``` install
+```sudo apt-get update``` <br /><br />
+```sudo apt-get upgrade``` <br /><br />
+```sudo apt install openjdk-17-jdk openjdk-17-jre``` install
 
 <br />
 
