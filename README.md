@@ -84,13 +84,17 @@ Libs:
 
 # Third step: finish configuring your environment and clone your project.
 
+## Configuring your environment
+
+
+
 ## Cloning your project
 
 Feel free to add a folder for your project using ```mkdir your-folder-name``` if you want to. <br /><br />
 ```git clone -b your-branch your-project-url``` -b is optional. <br /><br />
 Then use your app passwords key to complete the download (if you're using bitbucket). <br /><br />
 Inside your project folder, run the usual commands (like npm install). <br /><br />
-Now, you are able to build you project: run ```eas build --profile your-profile-name --local```. <br /><br /><br />
+Now, you are able to build your project: run ```eas build --profile your-profile-name --local```. <br /><br /><br />
 
 Enjoy!.
 
