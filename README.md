@@ -32,16 +32,16 @@ Libs:
 
 ## Node
 
-```curl -s https://deb.nodesource.com/setup_16.x | sudo bash``` add NodeSource PPA <br /><br />
-```sudo apt install nodejs -y``` install it <br /><br />
-```node -v``` verify its version, it should be v16
+```curl -s https://deb.nodesource.com/setup_16.x | sudo bash``` add NodeSource PPA. <br /><br />
+```sudo apt install nodejs -y``` install it. <br /><br />
+```node -v``` verify its version, it should be v16.
 
 <br />
 
 ## NVM 
 
-```curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``` download it <br /><br />
-```source ~/.bashrc``` complete your install
+```curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash``` download it. <br /><br />
+```source ~/.bashrc``` complete your install.
 
 <br />
 
@@ -49,37 +49,43 @@ Libs:
 
 ```sudo apt-get update``` <br /><br />
 ```sudo apt-get upgrade``` <br /><br />
-```sudo apt install openjdk-17-jdk openjdk-17-jre``` install
+```sudo apt install openjdk-17-jdk openjdk-17-jre``` install.
 
 <br />
 
 ## Git
 
-```sudo apt update``` update the system package <br /><br />
-```sudo apt install git```  install <br /><br />
-```git --version``` verify its version
+```sudo apt update``` update the system package. <br /><br />
+```sudo apt install git```  install. <br /><br />
+```git --version``` verify its version.
 
 <br />
 
-## Android-SDK
+## Android-SDK.
 
 ```sudo apt update``` <br /><br />
-```sudo apt install android-sdk``` install
+```sudo apt install android-sdk``` install.
 
 <br />
 
-## Android-SDK-build-tools
+## Android-SDK-build-tools.
 
 ```sudo apt-get update``` <br /><br />
-```sudo apt-get -y install android-sdk-build-tools``` install
+```sudo apt-get -y install android-sdk-build-tools``` install.
 
 <br />
 
-## Yarn
+## Yarn.
 
-```npm install --global yarn``` install <br /><br />
-```yarn --version``` verify its version
+```sudo npm install --global yarn``` install. <br /><br />
+```yarn --version``` verify its version.
 
 <br /><br />
 
-# Third step: finish configuring your environment and download your project.
+# Third step: finish configuring your environment and clone your project.
+
+## Cloning your project
+
+Feel free to add a folder for your project using ```mkdir your-folder-name``` if you want to. <br /><br />
+```git clone -b your-branch your-project-url``` -b is optional. <br /><br />
+Then use your app passwords key to complete the download (if you're using bitbucket)
