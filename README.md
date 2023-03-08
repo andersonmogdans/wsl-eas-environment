@@ -13,6 +13,7 @@ Libs:
   * Git
   * Android-SDK
   * Android-SKD-build-tools
+  * SDK Manager
   * Yarn
 ```
 
@@ -75,6 +76,13 @@ Libs:
 
 <br />
 
+## SDK Manager.
+
+```sudo apt install sdkmanager``` install. <br /><br />
+```sdkmanager --version``` verify its version.
+
+<br />
+
 ## Yarn.
 
 ```sudo npm install --global yarn``` install. <br /><br />
@@ -89,7 +97,11 @@ Libs:
 Now, let's configure the ANDROID_SDK_ROOT path, for that: <br /><br />
 ```nano ~/.profile```. <br /><br />
 At the bottom of the file, insert ```export ANDROID_SDK_ROOT=/usr/lib/android-sdk```. <br /><br />
-Save it and exit.
+Save it and exit. <br /><br /><br /><br />
+
+The next step is to accept the sdkmanager licenses <br /><br />
+Run ```sudo chmod -R 777 /usr/lib/android-sdk/``` <br /><br />
+Now, just type ```sdkmanager --licenses``` and accept all of them.
 
 ## Cloning your project
 
