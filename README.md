@@ -12,7 +12,7 @@ Libs:
   * Java v17
   * Git
   * Android-SDK
-  * Android-SKD-build-tools
+  * Android-SDK-build-tools
   * SDK Manager
   * Yarn
 ```
